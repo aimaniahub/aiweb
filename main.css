@@ -1,0 +1,160 @@
+.web-layout {
+    width: 100%;
+    height: 1024px;
+    position: relative;
+    background: linear-gradient(270deg, #637FB7 16%, #D3D1FE 100%, #999999 100%);
+    
+  }
+  
+  .background-box {
+    width: 1080px;
+    height: 777px;
+    left: 150px;
+    top: 92px;
+    position: absolute;
+    background: linear-gradient(270deg, #9978F2 41%, #58468C 100%);
+    border-radius: 25px;
+  }
+  
+  .button-large {
+    width: 120px;
+    height: 55px;
+    left: 764px;
+    top: 483px;
+    position: absolute;
+    background: #D9D4D4;
+    border-radius: 25px;
+  }
+  
+  .button-small {
+    width: 103px;
+    height: 55px;
+    left: 553px;
+    top: 483px;
+    position: absolute;
+    background: #D9D4D4;
+    border-radius: 25px;
+  }
+  
+  .navigation {
+    left: 884px;
+    top: 37px;
+    position: absolute;
+  }
+  
+  .nav-item {
+    left: 0px;
+    top: 0px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .nav-item:nth-child(2) {
+    left: 128px;
+  }
+  
+  .nav-item:nth-child(3) {
+    left: 258px;
+  }
+  
+  .main-tagline {
+    left: 204px;
+    top: 106px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Jura;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .rotated-image {
+    width: 218px;
+    height: 251px;
+    left: 194px;
+    top: 307.85px;
+    position: absolute;
+    transform: rotate(-2.33deg);
+    transform-origin: 0 0;
+    border-radius: 27px;
+  }
+  
+  .welcome-text {
+    left: 450px;
+    top: 350px;
+    position: absolute;
+    color: black;
+    font-size: 24px;
+    font-family: Jura;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .discover-section {
+    width: 1032px;
+    left: 204px;
+    top: 599px;
+    position: absolute;
+  }
+  
+  .section-title {
+    color: black;
+    font-size: 24px;
+    font-family: Jura;
+    font-weight: 700;
+    word-wrap: break-word;
+  }
+  
+  .section-content {
+    color: black;
+    font-size: 24px;
+    font-family: Jura;
+    font-weight: 400;
+    line-height: 30px;
+    word-wrap: break-word;
+  }
+  
+  .login-text {
+    left: 579px;
+    top: 499px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .register-text {
+    left: 788px;
+    top: 499px;
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  
+  .brand-name {
+    left: 35px;
+    top: 30px;
+    position: absolute;
+    color: black;
+    font-size: 64px;
+    font-family: Jura;
+    font-weight: 400;
+    word-wrap: break-word;
+  }
+  .a{
+    text-decoration: none;
+  }
+  
+
+  
+
+  

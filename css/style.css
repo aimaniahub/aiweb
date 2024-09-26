@@ -1,0 +1,86 @@
+/* Basic CSS for both pages */
+body {
+    font-family: 'Jura', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(180deg, #543ea1 0%, #655799 100%);
+    position: relative; /* Important for absolute positioning of nav */
+}
+
+.h1 {
+    color: white;
+    padding-bottom: 15%;
+}
+
+.container {
+    width: 360px;
+    background: linear-gradient(90deg, #130B28 7%, #41268e 72%);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.input-container {
+    margin: 20px 20px;
+    text-align: left;
+}
+
+.input-label {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 14px;
+    display: block;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #A9A2A2;
+    background: transparent;
+    color: white;
+    font-size: 14px;
+    outline: none;
+}
+
+button {
+    width: 84px;
+    padding: 10px;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: 'Jura';
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    display: block;
+}
+
+/* Navigation bar styling */
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 20px; /* Space between the links */
+}
+
+.nav a {
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 75px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
